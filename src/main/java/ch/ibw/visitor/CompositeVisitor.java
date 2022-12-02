@@ -4,7 +4,7 @@ import ch.ibw.AttributedCompositeNode;
 import ch.ibw.CommentNode;
 import ch.ibw.HtmlNode;
 
-public interface CompositeVisitor {
+public interface CompositeVisitor {//
 
   void visit(CommentNode node);
 
